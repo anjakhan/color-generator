@@ -1,0 +1,45 @@
+body {
+	top: 20%;
+	font: 'Raleway', sans-serif;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	background-image: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+	font: 600 3.5em 'Raleway', sans-serif;
+	width: 100%;
+}
+
+h3 {
+	font: 800 1em 'Raleway', sans-serif;
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+
+input, button {
+	border: 1px solid #555555;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+input {
+	padding: 3px 5px;
+}
+
+button {
+	font: 700 20px 'Raleway', sans-serif;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+input:hover, button:hover {
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 6px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+}
